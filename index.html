@@ -350,6 +350,7 @@
 
                 <div class="qualification__container container">
                     <div class="qualification__tabs">
+
                         <div class="qualification__button button--flex qualification__active" data-target='#education'>
                             <i class="uil uil-graduation-cap qualification__icon"></i>
                             Education
@@ -793,34 +794,43 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact__form grid">
+                    <form action="https://formspree.io/f/moqywyea" class="contact__form grid" method="POST">
                         <div class="contact__inputs grid">
                             <div class="contact__content">
                                 <label for="" class="contact">Name</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="Name" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact">Email</label>
-                                <input type="email" class="contact__input">
+                                <input type="email" name="E-mail" class="contact__input">
                             </div>
 
                             <div class="contact__content">
                                 <label for="" class="contact">Project</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="Project" class="contact__input">
                             </div>
 
                             <div class="contact__content">
-                                <label for="" class="contact">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <label for="message" class="contact">Message</label>
+                                <textarea name="Message" id="" cols="0" rows="7" class="contact__input"></textarea>
                             </div>
 
-                            <div>
-                                <a href="#" class="button button--flex">
+                            <!-- <div>
+                                <a href="" class="button button--flex">
+                                    <button type="submit"></button>
                                     Send Message
                                     <i class="uil uil-message button__icon"></i>
                                 </a>
+                            </div> -->
+                            
+                            <div>
+                                <button type="submit" class="button button--flex">
+                                    Send Message
+                                    <i class="uil uil-message button__icon"></i>
+                                </button>
                             </div>
+                            
                         </div>
                     </form>
                 </div>
